@@ -1,0 +1,20 @@
+{
+  "name": "yt-webpack2-basics",
+  "version": "1.0.0",
+  "description": "Webpack2 Basics",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rm -rf ./dist && webpack-dev-server", // This isn't working right now!
+    "build": "webpack"
+  },
+  "repository": "git@github.com:IamManchanda/yt-webpack2-basics.git",
+  "author": "Harry Manchanda <harmanmanchanda182@gmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "css-loader": "^0.28.7",
+    "style-loader": "^0.19.0",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.4"
+  }
+}
